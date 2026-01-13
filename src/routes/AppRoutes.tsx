@@ -1,11 +1,11 @@
-import { LoginPage } from "@/pages/login";
+import Login from "@/pages/login";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 export default function AppRoutes() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<LoginPage />} />
+        <Route path="/" element={<Login />} />
       </Routes>
     </BrowserRouter>
   );
